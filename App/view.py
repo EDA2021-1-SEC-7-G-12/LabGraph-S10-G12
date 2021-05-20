@@ -150,7 +150,8 @@ def thread_cycle():
 
             delta_time = stop_time - start_time
             delta_memory = deltaMemory(start_memory, stop_memory)
-            print(delta_memory,delta_time)
+            print("Tiempo de ejecución [ms]: " + str(delta_time))
+
         elif int(inputs[0]) == 5:
             destStation = input("Estación destino (Ej: 15151-10): ")
             optionFive(cont, destStation)
